@@ -1,6 +1,5 @@
 import React from 'react';
-import HomePage from './homepage.component';
-import './homepage.styles.scss';
+import HomePage from './pages/homepage/homepage.component.jsx';
 
 function App() {
   return (
@@ -9,5 +8,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
